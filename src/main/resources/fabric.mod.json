@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fsmp",
+	"version": "${version}",
+	"name": "fsmp",
+	"description": "This is a mod For FSMP!",
+	"authors": [
+		"❀SakuraPavilion❀"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fsmp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sakurapavilion.fsmp.Fsmp"
+		],
+		"client": [
+			"net.sakurapavilion.fsmp.FsmpClient"
+		],
+		"fabric-datagen": [
+			"net.sakurapavilion.fsmp.FsmpDataGenerator"
+		]
+	},
+	"mixins": [
+		"fsmp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
