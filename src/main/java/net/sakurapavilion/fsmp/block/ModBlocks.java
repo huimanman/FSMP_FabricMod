@@ -18,7 +18,7 @@ public class ModBlocks {
 
     //FSMP工作台
     public static final Block FSMP_CRAFTING_TABLE = registerBlock("fsmp_crafting_table",
-            new Block(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE).sounds(BlockSoundGroup.SNOW).strength(1.0f).mapColor(DyeColor.WHITE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE).sounds(BlockSoundGroup.SNOW).strength(1.5f,0.5f).mapColor(DyeColor.WHITE)));
     //endregion
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
