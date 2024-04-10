@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "121",
+    "212",
+    "121"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:slime_ball"
+    },
+    "2": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "fsmp:slime_core",
+    "count": 1
+  }
+}

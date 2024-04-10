@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "fsmp",
 	"version": "${version}",
-	"name": "fsmp",
-	"description": "This is a mod For FSMP!",
+	"name": "FSMP",
+	"description": "FSMP模组\nThis is a mod For FSMP!",
 	"authors": [
 		"❀SakuraPavilion❀"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://space.bilibili.com/480789112",
+		"sources": "https://github.com/huimanman/FSMP_FabricMod"
 	},
 	"license": "MIT",
 	"icon": "assets/fsmp/icon.png",
